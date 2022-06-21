@@ -1,7 +1,7 @@
 import 'reflect-metadata'
 import { DataSource } from 'typeorm'
 import { Article, User } from './entities'
-
+import 'dotenv/config'
 const { PG_HOST, PG_PORT, PG_USER, PG_PASSWORD, PG_DB } = process.env
 export const AppDataSource = new DataSource({
   type: 'postgres',

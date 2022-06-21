@@ -3,6 +3,7 @@ import './app/database/data.source'
 import router from './app/routes'
 import { json } from 'body-parser'
 import * as cookieParser from 'cookie-parser'
+import 'dotenv/config'
 
 const app = express()
 app.use(json(), cookieParser())

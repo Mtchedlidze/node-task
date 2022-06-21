@@ -2,7 +2,7 @@ import { IArticle } from '../common/interfaces'
 import {
   ArticleRepository,
   ArticlesFindOption,
-} from '../database/repositories/article.repository.'
+} from '../database/repositories/article.repository'
 import { v4 as randomID } from 'uuid'
 
 export class ArticleService {
